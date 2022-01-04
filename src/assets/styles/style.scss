@@ -1,0 +1,22 @@
+@import "normalize";
+@import "fonts";
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  height: 100%;
+}
+
+.how-its-work .link{
+  color: #6054ff;
+
+  &:hover{
+    color: #7970f7;
+  }
+
+  &:active{
+    color: #5a4fed;
+  }
+}
